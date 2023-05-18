@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html th:fragment="layout (title, content)" xmlns:th="http://
-www.thymeleaf.org">
+<html th:fragment="layout (title, content)" xmlns:th="http://www.thymeleaf.org">
+
 <head>
   <title th:replace="${title}">레이아웃 타이틀</title>
 </head>
+
 <body>
   <h1>레이아웃 H1</h1>
   <div th:replace="${content}">
@@ -14,4 +15,5 @@ www.thymeleaf.org">
     레이아웃 푸터
   </footer>
 </body>
+
 </html>
